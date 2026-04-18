@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="icon-close" viewBox="0 0 24 24">
+    <line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    <line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+  </symbol>
+  <symbol id="icon-search" viewBox="0 0 24 24">
+    <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" fill="none"/>
+    <line x1="21" y1="21" x2="16.65" y2="16.65" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+  <symbol id="icon-arrow-right" viewBox="0 0 24 24">
+    <line x1="5" y1="12" x2="19" y2="12" stroke="currentColor" stroke-width="2"/>
+    <polyline points="12,5 19,12 12,19" stroke="currentColor" stroke-width="2" fill="none"/>
+  </symbol>
+  <symbol id="icon-payroll" viewBox="0 0 24 24">
+    <rect x="2" y="4" width="20" height="16" rx="2" stroke="currentColor" stroke-width="2" fill="none"/>
+    <line x1="2" y1="10" x2="22" y2="10" stroke="currentColor" stroke-width="2"/>
+    <line x1="8" y1="16" x2="8" y2="16.01" stroke="currentColor" stroke-width="2"/>
+    <line x1="12" y1="16" x2="12" y2="16.01" stroke="currentColor" stroke-width="2"/>
+    <line x1="16" y1="16" x2="16" y2="16.01" stroke="currentColor" stroke-width="2"/>
+  </symbol>
+</svg>
