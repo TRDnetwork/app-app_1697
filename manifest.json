@@ -1,0 +1,28 @@
+{
+  "name": "Jane Doe | Full-Stack Developer & UI Designer",
+  "short_name": "Jane Doe",
+  "description": "Portfolio of Jane Doe, a passionate full-stack developer and UI designer building scalable web applications and intuitive interfaces.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8f7f5",
+  "theme_color": "#3a5a40",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "orientation": "portrait-primary"
+}
