@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: #f8f7f5;
+    --foreground: #1a1a1a;
+    --card: #ffffff;
+    --muted: #6b6b6b;
+    --accent: #3a5a40;
+    --border: #e0e0e0;
+  }
+
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Regular.woff2') format('woff2'),
+         url('/fonts/Satoshi-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Medium.woff2') format('woff2'),
+         url('/fonts/Satoshi-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: 'Satoshi';
+    src: url('/fonts/Satoshi-Bold.woff2') format('woff2'),
+         url('/fonts/Satoshi-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  body {
+    @apply bg-[--background] text-[--foreground] font-sans leading-relaxed;
+    font-family: Satoshi, sans-serif;
+  }
+}
+
+@layer components {
+  .prose {
+    @apply max-w-none;
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center px-4 py-2 rounded-md font-medium transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+
+  .btn-primary {
+    @apply bg-[--accent] text-white hover:bg-[#2d4633] focus:ring-[#a3b18a];
+  }
+
+  .btn-secondary {
+    @apply bg-[--muted] text-white hover:bg-[#5a5a5a] focus:ring-[#a3b18a];
+  }
+
+  .input {
+    @apply w-full px-4 py-2 border border-[--border] rounded-md focus:outline-none focus:ring-2 focus:ring-[#a3b18a] focus:border-transparent transition-all;
+  }
+
+  .card {
+    @apply bg-[--card] rounded-lg shadow-sm border border-[--border] p-6;
+  }
+}
+---
